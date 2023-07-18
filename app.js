@@ -1,6 +1,6 @@
-const progress = document.querySelector('.progress-done');
+const progressDone = document.querySelector('.progress-done');
 
 setTimeout( function () {
-    progress.style.width = progress.getAttribute('data-done') + '%';
-    progress.style.opacity = 1;
+    progressDone.style.width = progressDone.getAttribute('data-done') + '%';
+    progressDone.style.opacity = 1;
 }, 500);
